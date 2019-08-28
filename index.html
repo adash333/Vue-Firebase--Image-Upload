@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Vue Firebase Image Upload</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      // こちらにはご自身のFirebaseのAPIキーなどをコピペしてください
+      var config = {
+        apiKey: "AIzaSyC2Re8FjaAMe_bdGXfjr6DwC-Mf3xhQe1g",
+        authDomain: "image-upload-62ed7.firebaseapp.com",
+        databaseURL: "https://image-upload-62ed7.firebaseio.com",
+        projectId: "image-upload-62ed7",
+        storageBucket: "image-upload-62ed7.appspot.com",
+        messagingSenderId: "1058300240961"
+      };
+      firebase.initializeApp(config);
+    </script>
+  </body>
+</html>
